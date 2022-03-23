@@ -21,3 +21,11 @@
         -> inicialização: Determina o início da contagem
         -> teste: Determina o final da contagem
         -> atualização: Determina o passo [razão] da contagem
+
+    ### Exemplo
+
+        1, 4, 7, 10, 13
+
+        for (int i=1 ; i <= 13 ; i=i+3) {
+            
+        }
