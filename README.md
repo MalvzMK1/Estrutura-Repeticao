@@ -2,7 +2,7 @@
 
 ## Laços/loop
 
-### Java 
+## Java 
 
     for         [para]
     while       [enquanto]
@@ -12,6 +12,8 @@
 
     -> É mais adequado utilizar o laço for, quando sabemos antecipadamente a quantidade de repetições.
 
-    # sintaxe
+    ### sintaxe do laço for
 
-        for ([comando]; [comando]; [comando])
+        for ( ; ; ) {
+
+        }
