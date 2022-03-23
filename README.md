@@ -14,6 +14,10 @@
 
     ### sintaxe do laço for
 
-        for ( ; ; ) {
+        for (inicialização ; teste ; atualização) {
 
         }
+
+        -> inicialização: Determina o início da contagem
+        -> teste: Determina o final da contagem
+        -> atualização: Determina o passo [razão] da contagem
