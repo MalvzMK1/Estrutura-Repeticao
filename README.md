@@ -8,7 +8,7 @@
     while       [enquanto]
     do while
 
-* Laço ``for``
+# Laço ``for``
 
     -> É mais adequado utilizar o laço for, quando sabemos antecipadamente a quantidade de repetições.
 
@@ -30,6 +30,7 @@
             
         }
 
+<<<<<<< HEAD
 ---
 
 * Laço ``While``
@@ -45,3 +46,6 @@
         while (i <= 10) {
             System.out.println(i);
         }
+=======
+# Laço ``While``
+>>>>>>> 5a4b8ffb04f0638694a20c6a2b7ce4b1817efe0a
