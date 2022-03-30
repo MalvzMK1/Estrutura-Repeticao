@@ -8,7 +8,7 @@
     while       [enquanto]
     do while
 
-* Laço ``for``
+# Laço ``for``
 
     -> É mais adequado utilizar o laço for, quando sabemos antecipadamente a quantidade de repetições.
 
@@ -30,4 +30,4 @@
             
         }
 
-* Laço ``While``
+# Laço ``While``
