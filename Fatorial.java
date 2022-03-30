@@ -3,8 +3,8 @@ class Fatorial {
         long num = 15;
         long fat = num;
         
-        for (long i = num-1 ; i >= 2 ; i=i-1) {
-            fat = fat * i;
+        for (long i = num-1 ; i >= 2 ; i-=1) {
+            fat *= i;
         }
         System.out.println(num + "! = " + fat);
     }
