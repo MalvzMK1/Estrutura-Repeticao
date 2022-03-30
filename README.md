@@ -8,7 +8,7 @@
     while       [enquanto]
     do while
 
-* Laço [for]
+* Laço ``for``
 
     -> É mais adequado utilizar o laço for, quando sabemos antecipadamente a quantidade de repetições.
 
@@ -29,3 +29,5 @@
         for (int i=1 ; i <= 13 ; i=i+3) {
             
         }
+
+* Laço ``While``
