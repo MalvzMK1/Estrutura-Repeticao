@@ -30,15 +30,15 @@
             
         }
         
-* Laço ``While``
+# Laço ``While``
 
-    ### Sintaxe: 
+    -> Sintaxe: 
         
         while (expressão de teste) {
 
         }
 
-    ### Exemplo: 
+    -> Exemplo: 
 
         while (i <= 10) {
             System.out.println(i);
