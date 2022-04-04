@@ -29,23 +29,17 @@
         for (int i=1 ; i <= 13 ; i=i+3) {
             
         }
+        
+# Laço ``While``
 
-<<<<<<< HEAD
----
-
-* Laço ``While``
-
-    ### Sintaxe: 
+    -> Sintaxe: 
         
         while (expressão de teste) {
 
         }
 
-    ### Exemplo: 
+    -> Exemplo: 
 
         while (i <= 10) {
             System.out.println(i);
         }
-=======
-# Laço ``While``
->>>>>>> 5a4b8ffb04f0638694a20c6a2b7ce4b1817efe0a
