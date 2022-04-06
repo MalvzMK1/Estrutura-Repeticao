@@ -1,11 +1,22 @@
+import java.util.Scanner;
+
 class Fatorial {
     public static void main(String args[]) {
-        long num = 15;
+        Scanner ler = new Scanner(System.in);
+
+        System.out.println("Número a ser fatorado: ");
+        long num = ler.nextLong();
         long fat = num;
-        
-        for (long i = num-1 ; i >= 2 ; i-=1) {
-            fat *= i;
+
+        if (num <= 1) {
+            fat = 1;
+            System.out.println(fat);
         }
-        System.out.println(num + "! = " + fat);
+        else {
+            for (long i = num-1 ; i >= 2 ; i-=1) {
+                fat *= i;
+            }
+            System.out.println(num + "! = " + fat);
+        }
     }
 }
