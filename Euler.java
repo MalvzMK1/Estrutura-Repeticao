@@ -5,10 +5,17 @@ class Euler {
         Scanner ler = new Scanner(System.in);
 
         System.out.println("Insira um valor para o numero de Euler");
-        double num = ler.nextDouble();
+        double euler = ler.nextDouble();
+        double aux = 1+1/euler;
+        double cont = aux;
 
-        double euler = Math.pow((1 + 1/num), num);
+        while (euler != 1) {
+            cont = aux * cont;
+            euler--;
+        }
+        System.out.println(cont);
+        /*euler = Math.pow((1 + 1/euler), euler);
 
-        System.out.println(euler);
+        System.out.println(euler);*/
     }
 }
