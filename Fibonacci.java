@@ -12,12 +12,12 @@ class Fibonacci {
         }
         long n1 = 1;
         long n2 = 1;
-        System.out.print("1\t1\t");
+        System.out.print("1\n1\n");
 
         for (int i=0 ; i<qtd-2 ; i++) {
             long n3 = n1 + n2;
-            System.out.print(n3 + "\t");
-            System.out.print("**" + (double)n2/n1 + "\t");
+            System.out.print(n3 + "\t\t");
+            System.out.print("**" + (double)n2/n1 + "\n");
             n1 = n2;
             n2 = n3;
         }
